@@ -1,4 +1,3 @@
-</main>
 <footer>
             <div id="left-footer">
                 <h3>Quick Links</h3>
@@ -55,8 +54,7 @@
                 </div>
             </div>
 
-                
-            </div>
+
         </footer>
 
     
