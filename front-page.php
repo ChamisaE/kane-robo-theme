@@ -30,7 +30,7 @@
         ?>
             <div class="card">
                 <div class="card-image">
-                    <a href="<?php echo the_permalink(); ?>">
+                    <a href="<?php echo site_url('/events'); ?>">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" 
                     alt = "Card Image">
 
@@ -38,13 +38,13 @@
                 </div>
 
                 <div class="card-description">
-                    <a href="<?php the_permalink() ?>">
+                    <a href="<?php echo site_url('/events'); ?>">
                         <h3><?php the_title(); ?></h3>
                     </a>
                     <p>
                         <?php echo wp_trim_words(get_the_excerpt(), 30); ?>
                     </p>
-                    <a href="<?php the_permalink(); ?>" class="btn-readmore">Read more</a>
+                    <a href="<?php echo site_url('/events'); ?>" class="btn-readmore">Read more</a>
                 </div>
             </div>
 

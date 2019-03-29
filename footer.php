@@ -18,7 +18,7 @@
                             <a href="<?php echo site_url('/team');?>">Team</a>
                         </li>
                         <li>
-                            <a href="<?php the_permalink();?>">Equipment</a>
+                            <a href="<?php echo site_url('/equipment');?>">Equipment</a>
                         </li>
                         <li>
                             <a href="<?php echo site_url('/contact');?>">Contact</a>
@@ -34,7 +34,7 @@
                 <p>(562) 432-3276 </p>
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
                 <p>info@kaneaero.com</p>
-                <h3>Follow us on</h3>
+                <h3>Affiliation Logos Below</h3>
                 <div id="social-media-footer">
                     <ul>
                         <li>

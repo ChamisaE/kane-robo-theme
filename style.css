@@ -627,3 +627,13 @@ Version: 1.0
       width: 85%;
     }
   }
+  /* Contact Page */
+
+.contact {
+  text-align: center;
+  
+}
+
+#contact-us {
+  margin-top: 15%;
+}
