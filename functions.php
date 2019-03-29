@@ -73,7 +73,7 @@ function service_custom_post_type()
 {
     register_post_type('service',
     array(
-        'rewrite' => array('slug' => 'service'),
+        'rewrite' => array('slug' => 'services'),
         'labels' => array(
             'name' => 'Service',
             'singular_name' => 'Service',

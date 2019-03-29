@@ -6,7 +6,7 @@
                 <p>
                     <ul>
                         <li>
-                            <a href="<?php echo site_url('');?>">Home</a>
+                            <a href="<?php echo site_url('');?>">Test Home</a>
                         </li>
                         <li>
                             <a href="<?php echo site_url('/events');?>">Events</a>
@@ -18,7 +18,7 @@
                             <a href="<?php echo site_url('/team');?>">Team</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('/equipment');?>">Equipment</a>
+                            <a href="<?php the_permalink();?>">Equipment</a>
                         </li>
                         <li>
                             <a href="<?php echo site_url('/contact');?>">Contact</a>
