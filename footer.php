@@ -1,3 +1,4 @@
+</main>
 <footer>
             <div id="left-footer">
                 <h3>Quick Links</h3>
@@ -58,7 +59,7 @@
             </div>
         </footer>
 
-    </main>
+    
 
     <?php wp_footer(); ?>
 </body>

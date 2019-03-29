@@ -1,13 +1,7 @@
-/**
-* Template Name: Team
-*
-
-*/
 <?php get_header(); ?>
 
     
-
-    <main>
+<main>
         <a href="<?php echo site_url('/team');?>">
             <h2 class="page-heading">Team</h2>
         </a>
