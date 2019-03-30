@@ -545,7 +545,7 @@ Version: 1.0
     #banner {
       max-width: 100%;
       width: 100%;
-      height: auto !important;
+      
     }
     main {
       width: 95%;
@@ -586,6 +586,10 @@ Version: 1.0
       color: black;
       transition: 0.4s;
     }
+
+    #divider::after, nav::after {
+      display: none;
+    }
   }
   
   @media (max-width: 600px) {
@@ -608,6 +612,13 @@ Version: 1.0
     #logo-img {
       padding: 0;
     }
+    #divider::after, nav::after {
+      display: none;
+    }
+    iframe {
+      height: 250px;
+      width: 300px;
+    }
   }
   
   @media (min-width: 720px) {
@@ -620,6 +631,7 @@ Version: 1.0
     .card .card-image img {
       width: 100%;
     }
+    
   }
   
   @media (min-width: 1200px) {

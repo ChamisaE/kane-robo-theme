@@ -16,10 +16,10 @@
                 <a href="<?php site_url('');?>">Home</a>
             </li>
             <li>
-                <a href="<?php the_permalink();?>">Events</a>
+                <a href="<?php echo site_url('/events');?>">Events</a>
             </li>
             <li>
-                <a href="<?php the_permalink();?>">Services</a>
+                <a href="<?php echo site_url('/services');?>">Services</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/team');?>">Team</a>
@@ -60,6 +60,12 @@
             </li>
             <li>
                 <a href="<?php echo site_url('/contact');?>">Contact</a>
+            </li>
+           
+            <li>
+                <div id="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
             </li>
         </ul>
     </nav>
