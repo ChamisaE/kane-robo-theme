@@ -100,7 +100,10 @@ Version: 1.0
     background-position: center;
     background-blend-mode: overlay;
     color: white;
+    background-repeat:no-repeat;
+    background-size:contain;
   }
+
   
   #banner h3 {
     background: black;
