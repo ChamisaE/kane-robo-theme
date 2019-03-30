@@ -13,7 +13,7 @@
     <div id="slideout-menu">
         <ul>
             <li>
-                <a href="<?php site_url('');?>">Home</a>
+                <a href="<?php echo site_url('#');?>">Home</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/events');?>">Events</a>
@@ -44,7 +44,7 @@
         </div>
         <ul>
             <li>
-                <a href="<?php echo site_url('');?>">Home</a>
+                <a href="<?php echo site_url('#');?>">Home</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/events');?>">Events</a>
@@ -64,7 +64,7 @@
            
             <li>
                 <div id="search-icon">
-                    <i class="fas fa-search"></i>
+    
                 </div>
             </li>
         </ul>

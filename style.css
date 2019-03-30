@@ -24,7 +24,7 @@ Version: 1.0
 #divider::after {
   content:"";
   position:absolute;
-  top:90%;
+  top:90.5%;
   right:0px;
   border:50px solid rgb(42, 7, 11);
   border-bottom:50px solid transparent;
@@ -242,7 +242,7 @@ Version: 1.0
   
   #slideout-menu {
     display: none;
-    background: #2d3436;
+    background: linear-gradient(.25turn, #d33f49, 10%, black);
     z-index: 100;
     position: fixed;
     transition: 0.4s;
@@ -517,6 +517,7 @@ Version: 1.0
     nav ul {
       display: none;
     }
+    
   
     #menu-icon {
       display: flex;
@@ -596,7 +597,7 @@ Version: 1.0
     main {
       width: 100%;
     }
-  
+
     h1 {
       font-size: 48px;
     }
