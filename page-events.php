@@ -7,7 +7,7 @@
             <h2 class="page-heading">Events</h2>
         </a>
 
-    
+    <div class="event-section">
         <?php 
         $args = array(
             'post_type' => 'event',
@@ -47,7 +47,7 @@
              ?>
 
 
-        </div>
+</div>
 
        
 

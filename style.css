@@ -753,3 +753,12 @@ Version: 1.0
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Event Card */
+
+.event-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
