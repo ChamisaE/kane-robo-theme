@@ -13,38 +13,7 @@
     <div id="slideout-menu">
         <ul>
             <li>
-                <a href="<?php echo site_url('');?>">Home</a>
-            </li>
-            <li>
-                <a href="<?php echo site_url('/events');?>">Events</a>
-            </li>
-            <li>
-                <a href="<?php echo site_url('/services');?>">Services</a>
-            </li>
-            <li>
-                <a href="<?php echo site_url('/team');?>">Team</a>
-            </li>
-            <li>
-                <a href="<?php echo site_url('/equipment');?>">Equipment</a>
-            </li>
-            <li>
-                <a href="<?php echo site_url('/contact');?>">Contact</a>
-            </li>
-        </ul>
-    </div>
-
-    <nav>
-        <div id="logo-img">
-            <a href="#">
-                Kane Robotics
-            </a>
-        </div>
-        <div id="menu-icon">
-            <i class="fas fa-bars"></i>
-        </div>
-        <ul>
-            <li>
-                <a href="<?php echo site_url('');?>">Home</a>
+                <a href="<?php echo site_url('#');?>">Home</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/events');?>">Events</a>
@@ -60,6 +29,43 @@
             </li>
             <li>
                 <a href="<?php echo site_url('/contact');?>">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="#">
+               <span id="logo-fade"> Kane Robotics </span>
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="<?php echo site_url('#');?>">Home</a>
+            </li>
+            <li>
+                <a href="<?php echo site_url('/events');?>">Events</a>
+            </li>
+            <li>
+                <a href="<?php echo site_url('/services');?>">Services</a>
+            </li>
+            <li>
+                <a href="<?php echo site_url('/team');?>">Team</a>
+            </li>
+            <li>
+                <a href="<?php echo site_url('/about');?>">About</a>
+            </li>
+            <li>
+                <a href="<?php echo site_url('/contact');?>">Contact</a>
+            </li>
+           
+            <li>
+                <div id="search-icon">
+    
+                </div>
             </li>
         </ul>
     </nav>
