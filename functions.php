@@ -47,16 +47,16 @@ function event_custom_post_type()
 }
 add_action('init', 'event_custom_post_type');
 
-function team_custom_post_type() 
+function management_custom_post_type() 
 {
-    register_post_type('team',
+    register_post_type('management',
     array(
-        'rewrite' => array('slug' => 'team'),
+        'rewrite' => array('slug' => 'management'),
         'labels' => array(
-            'name' => 'Team',
-            'singular_name' => 'Team Member',
-            'add_new_item' => 'Add New Team Member',
-            'edit_item' => 'Edit Team Member'
+            'name' => 'Management',
+            'singular_name' => 'Mgmt Member',
+            'add_new_item' => 'Add New Management Member',
+            'edit_item' => 'Edit Management Member'
         ),
         'menu-icon' => 'dashicons-book-alt',
         'public' => true,
@@ -67,7 +67,30 @@ function team_custom_post_type()
        )
     );
 }
-add_action('init', 'team_custom_post_type');
+add_action('init', 'management_custom_post_type');
+
+
+function advisoryboard_custom_post_type() 
+{
+    register_post_type('advisoryboard',
+    array(
+        'rewrite' => array('slug' => 'advisoryboard'),
+        'labels' => array(
+            'name' => 'Advisory Board',
+            'singular_name' => 'Advisory Member',
+            'add_new_item' => 'Add New Advisory Board Member',
+            'edit_item' => 'Edit Advisory Board Member'
+        ),
+        'menu-icon' => 'dashicons-book-alt',
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array(
+            'title', 'thumbnail', 'editor', 'excerpt', 'comments'
+        )
+       )
+    );
+}
+add_action('init', 'advisoryboard_custom_post_type');
 
 function service_custom_post_type() 
 {
@@ -91,16 +114,16 @@ function service_custom_post_type()
 }
 add_action('init', 'service_custom_post_type');
 
-function equipment_custom_post_type() 
+function product_custom_post_type() 
 {
-    register_post_type('equipment',
+    register_post_type('products',
     array(
-        'rewrite' => array('slug' => 'equipment'),
+        'rewrite' => array('slug' => 'products'),
         'labels' => array(
-            'name' => 'Equipment',
-            'singular_name' => 'Equipment',
-            'add_new_item' => 'Add New Equipment',
-            'edit_item' => 'Edit Equipment'
+            'name' => 'Product',
+            'singular_name' => 'Product',
+            'add_new_item' => 'Add New Product',
+            'edit_item' => 'Edit Product'
         ),
         'menu-icon' => 'dashicons-book-alt',
         'public' => true,
@@ -111,4 +134,4 @@ function equipment_custom_post_type()
        )
     );
 }
-add_action('init', 'equipment_custom_post_type');
+add_action('init', 'product_custom_post_type');

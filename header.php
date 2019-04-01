@@ -22,8 +22,8 @@
                 <a href="<?php echo site_url('/services');?>">Services</a>
             </li>
             <li>
-                <a href="<?php echo site_url('/team');?>">Team</a>
-            </li>
+                <!-- Insert team and advisory board here -->
+             </li>
             <li>
                 <a href="<?php echo site_url('/about');?>">About</a>
             </li>
@@ -32,6 +32,7 @@
             </li>
         </ul>
     </div>
+
 
     <nav>
         <div id="logo-img">
@@ -53,7 +54,15 @@
                 <a href="<?php echo site_url('/services');?>">Services</a>
             </li>
             <li>
-                <a href="<?php echo site_url('/team');?>">Team</a>
+            <div class="dropdown">
+    <button class="dropbtn">Team
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
+      <a href="<?php echo site_url('/management');?>">Management</a>
+    </div>
+  </div>
             </li>
             <li>
                 <a href="<?php echo site_url('/about');?>">About</a>
@@ -69,7 +78,3 @@
             </li>
         </ul>
     </nav>
-
-    <div id="searchbox">
-        <input type="text" placeholder="Search Here">
-    </div>
