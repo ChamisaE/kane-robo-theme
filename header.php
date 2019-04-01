@@ -36,7 +36,7 @@
     <nav>
         <div id="logo-img">
             <a href="#">
-                Kane Robotics
+               <span id="logo-fade"> Kane Robotics </span>
             </a>
         </div>
         <div id="menu-icon">
@@ -56,7 +56,7 @@
                 <a href="<?php echo site_url('/team');?>">Team</a>
             </li>
             <li>
-                <a href="<?php echo site_url('/equipment');?>">Equipment</a>
+                <a href="<?php echo site_url('/about');?>">About</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/contact');?>">Contact</a>
