@@ -183,7 +183,7 @@ Version: 1.0
   
   nav a:hover {
     text-decoration: none;
-    color: red;
+    color: #001427;
   }
   
   nav ul {
@@ -235,7 +235,7 @@ Version: 1.0
   }
   
   #search-icon:hover {
-    color: red;
+    color: #001427
   }
   
   /* Slideout Menu */
@@ -352,7 +352,7 @@ Version: 1.0
   }
   
   .btn-readmore:hover {
-    background: red;
+    background: #001427;
     text-decoration: none;
     padding: 8px 64px 8px 24px;
     color: white;
