@@ -22,8 +22,11 @@
                 <a href="<?php echo site_url('/services');?>">Services</a>
             </li>
             <li>
-                <!-- Insert team and advisory board here -->
-             </li>
+                <a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
+            </li>
+            <li
+            ><a href="<?php echo site_url('/management');?>">Management</a>
+            </li>
             <li>
                 <a href="<?php echo site_url('/about');?>">About</a>
             </li>
