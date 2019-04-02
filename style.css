@@ -759,6 +759,6 @@ Version: 1.0
 .event-section {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
 }
