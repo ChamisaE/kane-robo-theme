@@ -3,15 +3,15 @@
     
 
     <main>
-        <a href="<?php echo site_url('/equipment');?>">
-            <h2 class="page-heading">Equipment</h2>
+        <a href="<?php echo site_url('/products');?>">
+            <h2 class="page-heading">Products</h2>
         </a>
 
         <section>
 
         <?php 
         $args = array(
-            'post_type' => 'equipment',
+            'post_type' => 'products',
             'posts_per_page' => 4,
 
         );
@@ -37,7 +37,7 @@
                     </a>
                     
                     <p>
-                        <?php echo wp_trim_words(get_the_excerpt(), 30); ?>
+                        <?php echo the_content(); ?>
                     </p>
                     <a href="<?php the_permalink(); ?>" class="btn-readmore">Read more</a>
                 </div>

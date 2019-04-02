@@ -36,7 +36,7 @@
                     </a>
                     
                     <p>
-                        <?php echo wp_trim_words(get_the_excerpt(), 30); ?>
+                        <?php echo the_content();  ?>
                     </p>
                     <a href="<?php the_permalink(); ?>" class="btn-readmore">Read more</a>
                 </div>
