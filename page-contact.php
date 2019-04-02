@@ -6,9 +6,9 @@
 <div class="contact-container">
     <div class="contact">
         
-        <h1> <i class="fas fa-phone-square"></i>(562) 432-3276 </h1>
-        <h1> <i class="fas fa-address-card"></i> 101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </h1>
-        <h1><i class="fas fa-envelope-square"></i>info@kaneaero.com</h1>
+        <p> <i class="fas fa-phone-square"></i>(562) 432-3276 </p>
+        <p> <i class="fas fa-address-card"></i> 101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
+        <p><i class="fas fa-envelope-square"></i>info@kaneaero.com</p>
 
     </div>
 </div>               
