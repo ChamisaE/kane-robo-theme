@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php wp_head();?>
-<!--    <title>Kane Robotics</title> -->
+    <title>Kane Robotics</title>
 </head>
 
 <body>
@@ -65,7 +65,7 @@
             <li>
             <div class="dropdown">
     <button class="dropbtn">Team
-      <i class="fa fa-caret-down"></i>
+		 <i class="fas fa-angle-down"></i>
     </button>
     <div class="dropdown-content">
       <a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
