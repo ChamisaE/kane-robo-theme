@@ -186,7 +186,7 @@ Version: 1.0
   
   nav a:hover {
     text-decoration: none;
-    color: red;
+    color: #d33f49;
   }
   
   nav ul {
@@ -284,7 +284,7 @@ Version: 1.0
   }
   
   #search-icon:hover {
-    color: red;
+    color: #d33f49;
   }
   
   /* Slideout Menu */
@@ -346,7 +346,7 @@ Version: 1.0
   
   .section-heading:hover {
     padding: 4px 48px;
-    background: red;
+    background: #d33f49;
   }
   
   /* Section Source */
@@ -401,7 +401,7 @@ Version: 1.0
   }
   
   .btn-readmore:hover {
-    background: red;
+    background: #d33f49;
     text-decoration: none;
     padding: 8px 64px 8px 24px;
     color: white;
@@ -424,7 +424,7 @@ Version: 1.0
   
   footer #left-footer {
     flex: 1;
-    border-right: 1px solid red;
+    border-right: 1px solid #d33f49;
     padding-left: 32px;
   }
   
@@ -461,7 +461,7 @@ Version: 1.0
   }
   
   footer #social-media-footer ul li:hover a .fa-youtube {
-    color: red;
+    color: #d33f49;
   }
   
   footer #social-media-footer ul li:hover a .fa-facebook {
@@ -487,7 +487,7 @@ Version: 1.0
   
   .page-heading:hover{
     padding:4px 48px;
-    background:red;
+    background:#d33f49;
   }
   
   .card-meta{
@@ -725,7 +725,7 @@ Version: 1.0
 }
 
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #d33f49;
 }
 
 .dropdown-content {
