@@ -8,11 +8,11 @@
 
 
     <main>
-  <!--      <a href="<?php echo site_url('/events');?>">
+        <a href="<?php echo site_url('/events');?>">
             <h2 class="section-heading">Events</h2>
         </a>
 
-        <div class="event-section">-->
+        <div class="event-section">
 
         
         <?php 
