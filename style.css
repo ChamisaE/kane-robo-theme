@@ -437,7 +437,7 @@ Version: 1.0
     text-align: center;
   }
   
-  footer #social-media-footer a .fa-facebook,
+/*  footer #social-media-footer a .fa-facebook,
   footer #social-media-footer a .fa-youtube,
   footer #social-media-footer a .fa-github {
     color: white;
@@ -467,8 +467,8 @@ Version: 1.0
   
   footer #social-media-footer ul li:hover a .fa-github {
     color: #bbb;
-  }
-  
+  }*/
+
   /* Blog List page */
   
   .page-heading{
