@@ -12,10 +12,16 @@
                             <a href="<?php echo site_url('/events');?>">Events</a>
                         </li>
                         <li>
+                            <a href="<?php echo site_url('/products');?>">Products</a>
+                        </li>
+                        <li>
                             <a href="<?php echo site_url('/services');?>">Services</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('/team');?>">Team</a>
+                            <a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo site_url('/management');?>">Management</a>
                         </li>
                         <li>
                             <a href="<?php echo site_url('/equipment');?>">Equipment</a>
