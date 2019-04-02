@@ -13,9 +13,6 @@
     <div id="slideout-menu">
         <ul>
 			  <li>
-				  <a href="<?php echo site_url('/home');?>">Home</a>
-			  </li>
-			  <li>
 				  <a href="<?php echo site_url('/about');?>">About</a>
 			  </li>
 			  <li>
@@ -50,9 +47,6 @@
             <i class="fas fa-bars"></i>
         </div>
         <ul>
-			  <li>
-				  <a href="<?php echo site_url('/home');?>">Home</a>
-			  </li>
 			  <li>
 				  <a href="<?php echo site_url('/about');?>">About</a>
 			  </li>
