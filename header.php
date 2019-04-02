@@ -39,7 +39,7 @@
 
     <nav>
         <div id="logo-img">
-            <a href="#">
+            <a href="<?php get_site_url('home'); ?>">
                <span id="logo-fade"> Kane Robotics </span>
             </a>
         </div>
