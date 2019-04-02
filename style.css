@@ -692,6 +692,7 @@ Version: 1.0
   /* Contact Page */
 
 .contact-container {
+   margin: auto;
   text-align: center;
 }
 
