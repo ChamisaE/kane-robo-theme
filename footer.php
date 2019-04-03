@@ -43,16 +43,16 @@
                 <div id="social-media-footer">
 						 <ul>
 							 <li>
-				<a href="https://www.robotics.org/">
-					<img src="img/riaMember.jpeg" height="75" width="75">
-				</a>
+								<a href="https://www.robotics.org/">
+									<img src="img/riaMember.jpeg" height="75" width="75">
+								</a>
 							 </li>
-<li>
-	<a href="http://arminstitute.org/">
-		<img src="img/ARMMember.png" height="75" width="75">
-	</a>
-</li>
-				<!--<ul>
+								<li>
+									<a href="http://arminstitute.org/">
+										<img src="img/ARMMember.png" height="75" width="75">
+									</a>
+								</li>
+							 <!--<ul>
 												<li>
 													 <a href="#">
 														  <i class="fab fa-facebook"></i>
