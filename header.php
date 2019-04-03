@@ -25,7 +25,7 @@
                 <a href="<?php echo site_url('/events');?>">Events</a>
             </li>
             <li>
-                <a href="<?php echo site_url('/Products');?>">Products</a>
+                <a href="<?php echo site_url('/products');?>">Products</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/services');?>">Services</a>
