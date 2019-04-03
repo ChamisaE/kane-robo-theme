@@ -42,7 +42,7 @@
                 <p>info@kaneaero.com</p>
                 <div id="social-media-footer">
 			<div class="logo mx-md-5 justify-content-end">
-				<a href="https://www.youtube.com/channel/UC7n8GWM9jnmRxoFqL3Es9YA">
+				<a href="https://www.robotics.org/">
 					<img src="img/riaMember.jpeg" height="75" width="75">
 				</a>
 				<!--                    <ul>
