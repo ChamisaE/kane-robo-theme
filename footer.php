@@ -42,16 +42,13 @@
                 <div id="affiliations-footer">
                     <a href="https://www.robotics.org/">
                         <img src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="175" width="250">
-                    </a>
-                      
-						
+                    </a>	
 				    <a href="http://arminstitute.org/">
 				        <img src="<?php echo get_template_directory_uri();?>/img/ARMMember.png" height="200" width="275">
-                    </a>  
-            
-            <a href="https://www.universal-robots.com/">
-                   <img src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="250" width="250">
-								 </a>
+                    </a> 
+                    <a href="https://www.universal-robots.com/">
+                    <img src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="190" width="250">
+					</a>
 				</div>
 </footer>
 <?php wp_footer(); ?>
