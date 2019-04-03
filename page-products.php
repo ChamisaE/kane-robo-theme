@@ -59,9 +59,9 @@
 	<section>
 	<div class="card">
 		<div class="card-description">
-			<p>
+			<h2>
 				<strong>We bring recent innovations in robotics and sensors together to provide off-the-shelf solutions.</strong>
-			</p>
+			</h2>
 			<p>
 				Our cobot systems are:
 			</p>
