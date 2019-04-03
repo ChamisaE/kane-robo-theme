@@ -55,9 +55,6 @@
 
 
 <!-- dropped from about-->
-	<a href="<?php echo site_url('/about');?>">
-		<h2 class="page-heading">Products</h2>
-	</a>
 
 	<section>
 	<div class="card">
