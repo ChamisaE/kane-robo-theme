@@ -59,12 +59,12 @@
 	<section>
 	<div class="card">
 		<div class="card-description">
-			<h1>
+			<h2>
 				<strong>We bring recent innovations in robotics and sensors together to provide off-the-shelf solutions.</strong>
-			</h1>
-			<h3>
+			</h2>
+			<h4>
 				Our cobot systems are:
-			</h3>
+			</h4>
 			<ul>
 				<li>Standardized - "off-the-shelf" products with little to no customer integration time</li>
 				<li>Low-cost - six-figure capital expenditure rather than traditional seven or eight</li>
