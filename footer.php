@@ -41,7 +41,7 @@
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
                 <p>info@kaneaero.com</p>
                 <h3>Follow us on</h3>
-                <div id="social-media-footer">
+<!--                <div id="social-media-footer">
                     <ul>
                         <li>
                             <a href="#">
@@ -60,7 +60,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>-->
 
 
         </footer>
