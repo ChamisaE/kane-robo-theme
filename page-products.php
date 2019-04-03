@@ -53,7 +53,30 @@
         <div class="pagination">
         <?php echo paginate_links(); ?></div>
 
-        
-        	
 
-       <?php get_footer(); ?>
+<!-- dropped from about-->
+	<a href="<?php echo site_url('/about');?>">
+		<h2 class="page-heading">Products</h2>
+	</a>
+
+	<section>
+	<div class="card">
+		<div class="card-description">
+			<p>
+				We bring recent innovations in robotics and sensors together to provide off-the-shelf solutions.
+			</p>
+			<p>
+				Our cobot systems are:
+			</p>
+			<ul>
+				<li>Standardized - "off-the-shelf" products with little to no customer integration time</li>
+				<li>Low-cost - six-figure capital expenditure rather than traditional seven or eight</li>
+				<li>Collaborative - safely utilised next to human co-workers, no special enclosures required</li>
+				<li>Flexible - easily reconfigured and redeployed to other high-mix/low-volume tasks</li>
+			</ul>
+		</div>
+	</div>
+<?php get_footer(); ?>
+
+
+<?php get_footer(); ?>

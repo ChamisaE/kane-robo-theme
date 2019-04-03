@@ -19,7 +19,6 @@
                         <li>epoxy dispensing</li>
                         <li>machine tending</li>
                     </ul>
-                <p>We bring recent innovations in robotics and sensors together to provide off the shelf solutions.</p> 
                 <p>Our cobot-based systems increase productivity and reduce costs for A&D manufacturers by providing standardized, “off-the-shelf” automation solutions that address A&D specific manufacturing needs.</p>
             </div>
         </div>
