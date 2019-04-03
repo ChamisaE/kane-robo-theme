@@ -41,16 +41,17 @@
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
                 <p>info@kaneaero.com</p>
                 <div id="social-media-footer">
-			<div class="logo mx-md-5 justify-content-end">
+						 <ul>
+							 <li>
 				<a href="https://www.robotics.org/">
 					<img src="img/riaMember.jpeg" height="75" width="75">
 				</a>
-			</div>
-						 <div class="logo mx-md-5 justify-content-end">
-							 <a href="http://arminstitute.org/">
-								 <img src="img/ARMMember.png" height="75" width="75">
-							 </a>
-						 </div>
+							 </li>
+<li>
+	<a href="http://arminstitute.org/">
+		<img src="img/ARMMember.png" height="75" width="75">
+	</a>
+</li>
 				<!--<ul>
 												<li>
 													 <a href="#">
@@ -67,8 +68,8 @@
 														  <i class="fab fa-github"></i>
 													 </a>
 												</li>
-										  </ul>
-									 </div>-->
+										  </ul>-->
+									 </div>
 
 
 
