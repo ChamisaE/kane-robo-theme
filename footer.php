@@ -24,9 +24,6 @@
                             <a href="<?php echo site_url('/management');?>">Management</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('/equipment');?>">Equipment</a>
-                        </li>
-                        <li>
                             <a href="<?php echo site_url('/contact');?>">Contact</a>
                         </li>
                     </ul>
@@ -41,37 +38,23 @@
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
                 <p>info@kaneaero.com</p>
 
-                <div id="affiliation-footer">
-                  <h3> Affiliations </h3>
-						 <ul>
-							 <li>
-								<a href="https://www.robotics.org/">
-                <img src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="150" width="150">
-								</a>
-							 </li>
-								<li>
-									<a href="http://arminstitute.org/">
-										 <img src="<?php echo get_template_directory_uri();?>/img/ARMMember.png" height="250" width="300">
+                <h3> Affiliations </h3>
+                <div id="affiliations-footer">
+                    <a href="https://www.robotics.org/">
+                        <img src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="175" width="250">
+                    </a>
+                      
+						
+				    <a href="http://arminstitute.org/">
+				        <img src="<?php echo get_template_directory_uri();?>/img/ARMMember.png" height="200" width="275">
+                    </a>  
             
-									</a>
-								</li>
-							 <li>
-								 <a href="https://www.universal-robots.com/">
-									 <img src="<?pho echo get_template_directory_uri();?>/img/urobot.jpg" height="250" width="250">
+            <a href="https://www.universal-robots.com/">
+                   <img src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="250" width="250">
 								 </a>
-							 </li>
-              </ul>
-									 </div>
-
-
-
-
-
-        </footer>
-
-    
-
-    <?php wp_footer(); ?>
-</body>
+				</div>
+</footer>
+<?php wp_footer(); ?>
+    </body>
 
 </html>
