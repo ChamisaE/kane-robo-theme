@@ -45,7 +45,13 @@
 				<a href="https://www.robotics.org/">
 					<img src="img/riaMember.jpeg" height="75" width="75">
 				</a>
-				<!--                    <ul>
+			</div>
+						 <div class="logo mx-md-5 justify-content-end">
+							 <a href="http://arminstitute.org/">
+								 <img src="img/ARMMember.png" height="75" width="75">
+							 </a>
+						 </div>
+				<!--<ul>
 												<li>
 													 <a href="#">
 														  <i class="fab fa-facebook"></i>
@@ -63,7 +69,7 @@
 												</li>
 										  </ul>
 									 </div>-->
-								</div>
+
 
 
         </footer>
