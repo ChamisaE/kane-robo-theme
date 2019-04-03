@@ -24,9 +24,6 @@
                             <a href="<?php echo site_url('/management');?>">Management</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('/equipment');?>">Equipment</a>
-                        </li>
-                        <li>
                             <a href="<?php echo site_url('/contact');?>">Contact</a>
                         </li>
                     </ul>
