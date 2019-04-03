@@ -40,25 +40,11 @@
                 <p>(562) 432-3276 </p>
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
                 <p>info@kaneaero.com</p>
-                <h3>Follow us on</h3>
+                <h3>Affiliations</h3>
                 <div id="social-media-footer">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
+                   
+                       <img src="./img/ARMMember.png" alt='test'>
+                       <img src="./img/riaMember.jpeg" alt='test' >
                 </div>
             </div>
 
