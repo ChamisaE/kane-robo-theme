@@ -437,24 +437,19 @@ Version: 1.0
     text-align: center;
   }
   
-/*  footer #social-media-footer a .fa-facebook,
-  footer #social-media-footer a .fa-youtube,
-  footer #social-media-footer a .fa-github {
-    color: white;
-    transition: 0.4s;
-  }
-    footer #social-media-footer ul li {
-    font-size: 48px;
-    padding: 16px;
-    transition: 0.4s;
-  }
-    */
-  footer #social-media-footer ul {
+
+  footer #affiliations-footer ul {
     display: flex;
     list-style: none;
     justify-content: center;
     padding: 0;
   }
+
+/* footer img {
+  width: 1rem;
+  height: auto;
+  vertical-align: middle;
+} */
 
 
   /* Blog List page */
@@ -753,3 +748,4 @@ ul li {
   list-style-position: inside;
   text-align: left;
 }
+
