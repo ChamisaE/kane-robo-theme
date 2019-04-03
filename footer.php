@@ -31,6 +31,7 @@
                         </li>
                     </ul>
                 </p>
+                
             </div>
 
            
@@ -42,13 +43,15 @@
                 <p>info@kaneaero.com</p>
                 <h3>Affiliations</h3>
                 <div id="social-media-footer">
-                   
-                       <img src="./img/ARMMember.png" alt='test'>
-                       <img src="./img/riaMember.jpeg" alt='test' >
+                <img src="<?php echo get_template_directory_uri();?>/img/ARMMember.png" height="250" width="300">
+                <img src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="150" width="150">
+                      
                 </div>
+               
+                
             </div>
 
-
+            
         </footer>
 
     
