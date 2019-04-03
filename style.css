@@ -165,7 +165,7 @@ Version: 1.0
     height: 72px;
     background: linear-gradient(.25turn, #d33f49, 10%, black);
     margin: 0;
-    position: sticky;
+    position: fixed;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     display: flex;
