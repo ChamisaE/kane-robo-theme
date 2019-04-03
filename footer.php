@@ -40,13 +40,26 @@
                 <p>(562) 432-3276 </p>
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
                 <p>info@kaneaero.com</p>
-                <h3>Affiliations</h3>
-                <div id="social-media-footer">
-                   
-                       <img src="./img/ARMMember.png" alt='test'>
-                       <img src="./img/riaMember.jpeg" alt='test' >
-                </div>
-            </div>
+
+                <div id="affiliation-footer">
+                  <h3> Affiliations </h3>
+						 <ul>
+							 <li>
+								<a href="https://www.robotics.org/">
+                <img src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="150" width="150">
+								</a>
+							 </li>
+								<li>
+									<a href="http://arminstitute.org/">
+										 <img src="<?php echo get_template_directory_uri();?>/img/ARMMember.png" height="250" width="300">
+            
+									</a>
+								</li>
+              </ul>
+									 </div>
+
+
+
 
 
         </footer>
