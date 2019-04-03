@@ -60,7 +60,7 @@
 	<div class="card">
 		<div class="card-description">
 			<p>
-				We bring recent innovations in robotics and sensors together to provide off-the-shelf solutions.
+				<strong>We bring recent innovations in robotics and sensors together to provide off-the-shelf solutions.</strong>
 			</p>
 			<p>
 				Our cobot systems are:
