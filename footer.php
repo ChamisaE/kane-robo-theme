@@ -55,6 +55,11 @@
             
 									</a>
 								</li>
+							 <li>
+								 <a href="https://www.universal-robots.com/">
+									 <img src="<?pho echo get_template_directory_uri();?>/img/urobot.jpg" height="250" width="250">
+								 </a>
+							 </li>
               </ul>
 									 </div>
 
