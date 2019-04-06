@@ -12,15 +12,6 @@
                             <a href="<?php echo site_url('/about');?>">About</a>
                         </li>
                         <li>
-<<<<<<< Updated upstream
-                            <a href="<?php echo site_url('/services');?>">Services</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/team');?>">Team</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/equipment');?>">Equipment</a>
-=======
                             <a href="<?php echo site_url('/advisory board');?>">Advisory Board</a>
                         </li>
                         <li>
@@ -34,7 +25,6 @@
                         </li>
                         <li>
                             <a href="<?php echo site_url('/Services');?>">Services</a>
->>>>>>> Stashed changes
                         </li>
                         <li>
                             <a href="<?php echo site_url('/contact');?>">Contact</a>
@@ -77,25 +67,20 @@
 
     
 
-<<<<<<< Updated upstream
-    <?php wp_footer(); ?>
-</body>
-=======
                 <h3><u> Affiliations <u></h3>
                 <div id="affiliations-footer">
-                    <a href="https://www.robotics.org/" target="_blank">
+                    <a href="https://www.robotics.org/">
                         <img src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="175" width="250">
                     </a>	
-				    <a href="http://arminstitute.org/" target="_blank">
+				    <a href="http://arminstitute.org/">
 				        <img src="<?php echo get_template_directory_uri();?>/img/ARMMember.png" height="200" width="275">
                     </a> 
-                    <a href="https://www.universal-robots.com/" target="_blank">
+                    <a href="https://www.universal-robots.com/">
                     <img src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="190" width="250">
 					</a>
 				</div>
 </footer>
 <?php wp_footer(); ?>
     </body>
->>>>>>> Stashed changes
 
 </html>
