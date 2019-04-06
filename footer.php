@@ -12,10 +12,7 @@
                             <a href="<?php echo site_url('/about');?>">About</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('/advisory board');?>">Advisory Board</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/managment');?>">Management</a>
+                            <a href="<?php echo site_url('/team');?>">Team</a>
                         </li>
                         <li>
                             <a href="<?php echo site_url('/events');?>">Events</a>
