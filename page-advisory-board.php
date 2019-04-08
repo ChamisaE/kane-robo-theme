@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    
+    <!-- Chamisa, can you see this? -->
 <main>
         <a href="<?php echo site_url('/advisory-board');?>">
             <h2 class="page-heading">Advisory Board</h2>
