@@ -22,10 +22,10 @@
 
         ?>
             <div class="card">
-                <div class="card-image">
+                <div class="team-image">
                     <a href="<?php echo the_permalink(); ?>">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" 
-                    alt = "Card Image">
+                    <img class="center" src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" 
+                    alt = "Card Image" width="300" height="300">
 
                     </a>
                 </div>
