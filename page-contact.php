@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<main>
 <h2 class="section-heading" id="contact-us">Contact Us </h2>
 	<div class="contact-container">
 		<div class="contact">

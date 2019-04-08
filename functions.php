@@ -98,7 +98,7 @@ function service_custom_post_type()
     array(
         'rewrite' => array('slug' => 'service'),
         'labels' => array(
-            'name' => 'Service',
+            'name' => 'Services',
             'singular_name' => 'Service',
             'add_new_item' => 'Add New Service',
             'edit_item' => 'Edit Service'
@@ -120,7 +120,7 @@ function product_custom_post_type()
     array(
         'rewrite' => array('slug' => 'products'),
         'labels' => array(
-            'name' => 'Product',
+            'name' => 'Products',
             'singular_name' => 'Product',
             'add_new_item' => 'Add New Product',
             'edit_item' => 'Edit Product'
