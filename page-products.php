@@ -2,6 +2,9 @@
 get_header(); ?>
 
 <main>
+<a href="<?php echo site_url('/products');?>">
+            <h2 class="page-heading">Products</h2>
+        </a>
 
 <?php
 if (have_posts()) :
