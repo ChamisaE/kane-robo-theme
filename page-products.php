@@ -15,10 +15,10 @@
             'posts_per_page' => 4,
 
         );
-        $equipment = new WP_Query($args);
+        $products = new WP_Query($args);
 
-        while ($equipment->have_posts()) {
-            $equipment->the_post();
+        while ($products->have_posts()) {
+            $products->the_post();
         
 
         ?>
@@ -73,7 +73,4 @@
 			</ul>
 		</div>
 	</div>
-<?php get_footer(); ?>
-
-
 <?php get_footer(); ?>
