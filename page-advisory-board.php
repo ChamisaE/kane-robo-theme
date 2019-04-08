@@ -38,7 +38,7 @@
                     <p>
                         <?php echo the_content();  ?>
                     </p>
-                    <a href="<?php the_permalink(); ?>" class="btn-readmore">Read more</a>
+                    
                 </div>
             </div>
 
