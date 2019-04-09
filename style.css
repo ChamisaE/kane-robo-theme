@@ -422,7 +422,7 @@ footer #left-footer ul {
 }
 
 footer #right-footer {
-  flex: 1;
+  flex: 2;
   padding: 0;
   text-align: center;
 }
