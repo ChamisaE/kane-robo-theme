@@ -35,7 +35,10 @@
                 
                 <p>Contact:</p>
                 <p>(562) 432-3276 </p>
+					<p>New Mexico:</p>
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
+					<p>California:</p>
+					<p>7000 Merrill Ave, Chino, CA 91710</p>
                 <p>info@kaneaero.com</p>
 
 
