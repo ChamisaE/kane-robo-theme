@@ -40,6 +40,7 @@
 					<p>California:</p>
 					<p>7000 Merrill Ave, Chino, CA 91710</p>
                 <p>info@kaneaero.com</p>
+				</div>
 
 
                 <h2> Affiliations </h2>
