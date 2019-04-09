@@ -39,8 +39,8 @@
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
 					<p>California:</p>
 					<p>7000 Merrill Ave, Chino, CA 91710</p>
-                <p>info@kaneaero.com</p>
-				</div>
+                <p>info@kaneaero.com</p><br/>
+
 
 
                 <h2> Affiliations </h2>
