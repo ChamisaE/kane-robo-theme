@@ -434,7 +434,17 @@ footer #affiliations-footer ul {
   justify-content: center;
   padding: 0;
 }
+#rialogo {
+   padding: 3px;
+}
 
+#armlogo {
+   padding: 3px;
+}
+
+#uarlogo {
+   padding: 3px;
+}
 
 /* Blog List page */
 
