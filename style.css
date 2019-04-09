@@ -93,6 +93,10 @@ textarea:focus {
   background-size:contain;
 }
 
+#kane-splash{
+   size: auto;
+}
+
 
 #banner h3 {
   background: black;
