@@ -33,7 +33,7 @@
            
             <div id="right-footer">
                 
-                <p>Contact:</p>
+                <h2>Contact:</h2>
                 <p>(562) 432-3276 </p>
 					<p>New Mexico:</p>
                 <p>101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
@@ -42,7 +42,7 @@
                 <p>info@kaneaero.com</p>
 
 
-                <h3> Affiliations </h3>
+                <h2> Affiliations </h2>
                 <div id="affiliations-footer">
                     
                     <a href="https://www.robotics.org/">
