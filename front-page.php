@@ -4,53 +4,29 @@
         
     </div>
     <div id="divider">
-        </div>
-
-
+    </div>
     <main>
-        <a href="<?php echo site_url('/events');?>">
-            <h2 class="section-heading">Events</h2>
+        <a href="<?php echo site_url('/services');?>">
+            <h2 class="section-heading">Services</h2>
         </a>
 
         <div class="event-section">
 
-        
-        <?php 
-        $args = array(
-            'post_type' => 'event',
-            'posts_per_page' => 1,
+        <?php
+    // query for the services page
+    $services = new WP_Query( 'pagename=services' );
+    // "loop" through query (even though it's just one page) 
+    while ( $services->have_posts() ) : $services->the_post(); ?>
+    <div class="services-card">
+        <div class="card-description">
+            <?php the_content();?>
+        </div>
+    </div>
 
-        );
-        $events = new WP_Query($args);
-
-        while ($events->have_posts()) {
-            $events->the_post();
-        
-
-        ?>
-            <div class="card">
-                <div class="card-image">
-                    <a href="<?php echo the_permalink(); ?>">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" 
-                    alt = "Card Image">
-
-                    </a>
-                </div>
-
-                <div class="card-description">
-                    <a href="<?php the_permalink() ?>">
-                        <h3><?php the_title(); ?></h3>
-                    </a>
-                    <p>
-                        <?php echo wp_trim_words(get_the_excerpt(), 30); ?>
-                    </p>
-                    <a href="<?php echo site_url('events') ?>" class="btn-readmore">Read more</a>
-                </div>
-            </div>
-
-            <?php }
-             wp_reset_query(); 
-             ?>
+    <?php endwhile;
+    // reset post data (important!)
+    wp_reset_postdata();
+?>
 
 
         </div>
