@@ -4,8 +4,8 @@
         
     </div>
     <div id="divider">
-    </div>
     <main>
+        </div>
         <a href="<?php echo site_url('/products');?>">
             <h2 class="section-heading">Products</h2>
         </a>
@@ -20,7 +20,7 @@
             // reset post data (important!)
             wp_reset_postdata();
             ?>
-
+            
         <a href="<?php echo site_url('/services');?>">
             <h2 class="section-heading">Services</h2>
         </a>
