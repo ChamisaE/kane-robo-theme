@@ -21,9 +21,29 @@
             wp_reset_postdata();
             ?>
 
+        <a href="<?php echo site_url('/services');?>">
+            <h2 class="section-heading">Services</h2>
+        </a>
+
+           <div class="services-section">
+           <?php
+            // query for the services page
+            $services = new WP_Query( 'pagename=services' );
+            // "loop" through query (even though it's just one page) 
+            while ( $services->have_posts() ) : $services->the_post(); ?>
+            
+            <div class="services-card">
+                <?php the_content();?>
+            </div>
+            
+            <?php endwhile;
+            // reset post data (important!)
+            wp_reset_postdata();
+            ?>
+            </div>
 
 
-        </div>
+    
     
 
        <?php get_footer(); ?>

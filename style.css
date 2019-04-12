@@ -741,7 +741,7 @@ display: block;
 
 /* Event Card */
 
-.event-section, .products-section {
+.event-section, .services-section {
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
@@ -755,6 +755,6 @@ text-align: left;
 
 /* Services Card Front-Page */
 
-.products-card {
+.services-card {
   width: 50%;
 }
