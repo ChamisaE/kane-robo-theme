@@ -1,13 +1,17 @@
 <?php get_header(); ?>
 
     <div id="banner">
-        
     </div>
+
     <div id="divider">
+    </div> 
+    
+    <div class="skew-cc"></div> 
+
     <main>
-        </div>
+        
         <a href="<?php echo site_url('/products');?>">
-            <h2 class="section-heading">Products</h2>
+            <h2 id="products">Products</h2>
         </a>
 
            <?php
@@ -20,19 +24,23 @@
             // reset post data (important!)
             wp_reset_postdata();
             ?>
-            
+    
+    </main>
+    <div class="skew-c"></div>
+    
+    <div class="services-section">
         <a href="<?php echo site_url('/services');?>">
-            <h2 class="section-heading">Services</h2>
+            <h2 id="services">Services</h2>
         </a>
 
-           <div class="services-section">
+           
            <?php
             // query for the services page
             $services = new WP_Query( 'pagename=services' );
             // "loop" through query (even though it's just one page) 
             while ( $services->have_posts() ) : $services->the_post(); ?>
             
-            <div class="services-card">
+            <div class="card">
                 <?php the_content();?>
             </div>
             
@@ -42,8 +50,7 @@
             ?>
             </div>
 
+            </div>
 
-    
-    
 
        <?php get_footer(); ?>
