@@ -6,9 +6,8 @@ Version: 1.0
  */
 
  :root {
-  
-  --kane-red:  #c72a34;
-  --second-color: #ffff8c;
+  /* Declare Color Palletes Here */
+  --kane-red:  #8b1e26;
 }
 
 body {
@@ -351,6 +350,12 @@ section {
   color: white;
 }
 
+/* Clouds */
+#clouds path {
+	fill: var(--kane-red);
+	stroke: var(--kane-red);
+}
+
 /* Footer */
 
 footer {
@@ -358,7 +363,7 @@ footer {
   padding: 8px;
   color: #eee;
   display: flex;
-
+  
 }
 
 footer a {
@@ -383,6 +388,9 @@ footer #right-footer {
   text-align: center;
 }
 
+footer #right-footer > p:hover {
+color: gold;
+}
 
 footer #affiliations-footer ul {
   display: flex;
@@ -747,5 +755,7 @@ justify-content: space-between;
 }
 
 .end {
-  height: 400px;
+  height: 200px;
+
 }
+

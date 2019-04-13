@@ -73,6 +73,12 @@
 			<li>
                 <a href="<?php echo site_url('/contact');?>">Contact</a>
             </li>
+            <li>
+                	<!--Don't delete this it is what the js file uses for the slideout menu  -->
+                <div id="search-icon">	
+
+                 </div>	
+            </li>
            
         </ul>
     </nav>
