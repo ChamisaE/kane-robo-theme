@@ -305,9 +305,14 @@ section {
 
 }
 
-.section-heading:hover {
+.section-heading:hover, #services:hover {
   padding: 4px 48px;
 
+}
+
+.page-heading:hover{	
+  padding:4px 48px;	
+  	
 }
 
 /* Card */
@@ -675,13 +680,8 @@ svg#curveDownColor {
   margin: 70px 0 0 0;
 }
 
-h2#products {
-  margin-top: 15%;
-  margin-left: 40%;
-  text-align: center;
-}
 
-#products, #services {
+ #services {
   font-size: 32px;
   font-family: "Roboto Condensed", sans-serif;
   border-left: 3px solid black;
@@ -692,6 +692,26 @@ h2#products {
 
 }
 
+h2#products {
+  margin-top: 100px;
+}
+
+#services-btn {
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  
+}
+
+#products-btn {
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  color: white;
+  background-color: var(--kane-red);
+}
 h2#services {
 margin-top:100px;
 color: white;
@@ -709,9 +729,6 @@ justify-content: space-between;
   left:0px;
   background: linear-gradient(to right bottom,var(--kane-red) 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
-
-
-
 /*-------------------------*/
 /* SKEW COUNTER CLOCKWISE  */
 /*-------------------------*/
@@ -721,4 +738,8 @@ justify-content: space-between;
   position:absolute;
   left:0px;
   background: linear-gradient(to left bottom, #fff 49%, var(--kane-red) 50%);
+}
+
+.end {
+  height: 400px;
 }

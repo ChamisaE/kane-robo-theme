@@ -11,7 +11,8 @@
     <main>
         
         <a href="<?php echo site_url('/products');?>">
-            <h2 id="products">Products</h2>
+            <section>
+            <h2 id="products" class="section-heading">Products</h2>
         </a>
 
            <?php
@@ -19,11 +20,15 @@
             $products = new WP_Query( 'pagename=products' );
             // "loop" through query (even though it's just one page) 
             while ( $products->have_posts() ) : $products->the_post(); ?>
+            
                 <?php the_content();?>
+                <a href="<?php the_permalink(); ?>" id="products-btn" class="btn-readmore">Read more</a>
+                
             <?php endwhile;
             // reset post data (important!)
             wp_reset_postdata();
             ?>
+            </section>
     
     </main>
     <div class="skew-c"></div>
@@ -48,9 +53,13 @@
             // reset post data (important!)
             wp_reset_postdata();
             ?>
+            <a href="<?php the_permalink(); ?>" id="services-btn" class="btn-readmore">Read more</a>
             </div>
 
             </div>
+            <div class="skew-cc"></div> 
+            <div class="end"></div>
+            <div class="skew-c"></div> 
 
 
        <?php get_footer(); ?>

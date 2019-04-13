@@ -74,11 +74,6 @@
                 <a href="<?php echo site_url('/contact');?>">Contact</a>
             </li>
            
-            <li>
-                <div id="search-icon">
-    
-                </div>
-            </li>
         </ul>
     </nav>
  
