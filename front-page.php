@@ -9,9 +9,9 @@
     <div class="skew-cc"></div> 
 
     <main>
-        
+    <div class="products-section">
         <a href="<?php echo site_url('/products');?>">
-            <section>
+         
             <h2 id="products" class="section-heading">Products</h2>
         </a>
 
@@ -28,8 +28,8 @@
             // reset post data (important!)
             wp_reset_postdata();
             ?>
-            </section>
-    
+         
+</div>
     </main>
     <div class="skew-c"></div>
     
@@ -47,13 +47,14 @@
             
             <div class="card">
                 <?php the_content();?>
+               
             </div>
-            
+            <a href="<?php the_permalink(); ?>" id="services-btn" class="btn-readmore">Read more</a>
             <?php endwhile;
             // reset post data (important!)
             wp_reset_postdata();
             ?>
-            <a href="<?php the_permalink(); ?>" id="services-btn" class="btn-readmore">Read more</a>
+            
             </div>
 
             </div>
