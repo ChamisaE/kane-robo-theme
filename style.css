@@ -699,8 +699,8 @@ svg#curveDownColor {
 
 }
 
-h2#products {
-  margin-top: 100px;
+h2#products, h2#services {
+  margin-top: 150px;
 }
 
 #services-btn {
@@ -720,7 +720,6 @@ h2#products {
   background-color: var(--kane-red);
 }
 h2#services {
-margin-top:100px;
 color: white;
 justify-content: space-between;
 }

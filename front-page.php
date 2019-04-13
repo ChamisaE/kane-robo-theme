@@ -20,8 +20,9 @@
             $products = new WP_Query( 'pagename=products' );
             // "loop" through query (even though it's just one page) 
             while ( $products->have_posts() ) : $products->the_post(); ?>
-            
+            <div class="card">
                 <?php the_content();?>
+                </div>
                 <a href="<?php the_permalink(); ?>" id="products-btn" class="btn-readmore">Read more</a>
                 
             <?php endwhile;
