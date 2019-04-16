@@ -680,17 +680,6 @@ svg#bigTriangleColor {
 	stroke-width: 2;
 }
 
-#curveDownColor path {
-	fill: var(--kane-red);
-  stroke: var(--kane-red);
-
-}
-
-svg#curveDownColor {
-  margin: 70px 0 0 0;
-}
-
-
  #services {
   font-size: 32px;
   font-family: "Roboto Condensed", sans-serif;
@@ -789,6 +778,17 @@ justify-content: space-between;
   overflow: hidden;
 }
 
+.rr.rr-right.services{
+  z-index: 2;
+  float: right;
+  width: 56%;
+  background-image: url('./img/spacex.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-color: var(--kane-red);
+  overflow: hidden;
+}
+
 .rr:after,
 .rr:before {
   content: "";
@@ -815,4 +815,31 @@ justify-content: space-between;
 .rr-right > div {
   margin-right: 50px;
   margin-left: 25px;
+}
+
+.mobile {
+  display: none;
+}
+
+
+@media (max-width:320px)  {
+   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  .rr {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+
+  }
+@media (max-width:480px)  { 
+  .rr {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  /* smartphones, Android phones, landscape iPhone */ 
 }
