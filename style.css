@@ -846,11 +846,12 @@ justify-content: space-between;
 
   }
 @media (max-width:480px)  { 
+  /* smartphones, Android phones, landscape iPhone */ 
   .rr {
     display: none;
   }
   .mobile {
     display: block;
   }
-  /* smartphones, Android phones, landscape iPhone */ 
+  
 }
