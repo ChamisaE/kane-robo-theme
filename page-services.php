@@ -1,23 +1,23 @@
 <?php get_header(); ?>
 
-    <main>
-        <a href="<?php echo site_url('/services');?>">
-            <h2 class="page-heading">Services</h2>
-        </a>
-<section>
-<?php
-if (have_posts()) :
-    while (have_posts()) : ?>
-    
-    <div class="card">
-        <?php  the_post();?>
-        <div class="card-description">
-        <?php the_content(); ?>
-        </div>
+
+
+<div class="rr rr-left">
+    <div>
+        <h2 class="section-heading">Services</h2>
+        <p>
+        <?php
+        if (have_posts()) :
+        while (have_posts()) :
+            the_post();
+                the_content();
+        endwhile;
+        endif;?>
+        </p>
     </div>
-        
-	<?php endwhile;
-endif;?>
-<section>
+</div>
+<div class="rr rr-right">
+</div>
     
-       <?php get_footer(); ?>
+
+<?php get_footer(); ?>

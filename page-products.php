@@ -1,17 +1,21 @@
 <?php
 get_header(); ?>
 
-<main>
-<a href="<?php echo site_url('/products');?>">
-            <h2 class="page-heading">Products</h2>
-        </a>
+<div class="rr rr-left">
+    <div>
+        <h2 class="section-heading">Products</h2>
+        <p>
+        <?php
+        if (have_posts()) :
+        while (have_posts()) :
+            the_post();
+                the_content();
+        endwhile;
+        endif;?>
+        </p>
+    </div>
+</div>
+<div class="rr rr-right">
+</div>
 
-<?php
-if (have_posts()) :
-   while (have_posts()) :
-      the_post();
-         the_content();
-   endwhile;
-endif;
-
-get_footer();  ?>
+<?php get_footer();  ?>

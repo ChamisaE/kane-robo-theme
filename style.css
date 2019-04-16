@@ -350,12 +350,6 @@ section {
   color: white;
 }
 
-/* Clouds */
-#clouds path {
-	fill: var(--kane-red);
-	stroke: var(--kane-red);
-}
-
 /* Footer */
 
 footer {
@@ -363,6 +357,7 @@ footer {
   padding: 8px;
   color: #eee;
   display: flex;
+
   
 }
 
@@ -759,3 +754,65 @@ justify-content: space-between;
 
 }
 
+
+/* Slanted Image Divider for Services and Products Page */
+
+
+.rr > div {
+  text-align: center;
+}
+.rr > div > h2.section-heading {
+  margin:10% 0 10% 0;
+  
+}
+
+.rr {
+  margin: 20% 0 10% 0;
+  position: relative;
+  height: 500px;
+  background: var(--kane-red);
+}
+.rr.rr-left {
+  z-index: 1;
+  float: left;
+  width: 44%;
+  color: white;
+}
+.rr.rr-right{
+  z-index: 2;
+  float: right;
+  width: 56%;
+  background-image: url('./img/f35.jpeg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-color: var(--kane-red);
+  overflow: hidden;
+}
+
+.rr:after,
+.rr:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+}
+
+.rr-right:after {
+  height: 120%;
+  width: 100px;
+  background: var(--kane-red);
+  transform: rotate(10deg);
+  left: -68px;
+  top: -20px;
+  }
+
+.rr-left > div {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.rr-right > div {
+  margin-right: 50px;
+  margin-left: 25px;
+}
