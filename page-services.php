@@ -16,7 +16,7 @@
         </p>
     </div>
 </div>
-<div class="rr rr-right">
+<div class="rr rr-right services">
 </div>
     
 <div class="mobile">
