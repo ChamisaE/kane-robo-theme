@@ -16,13 +16,16 @@
         </p>
     </div>
 </div>
-<div class="rr rr-right services">
+<div class="rr rr-right">
 </div>
     
 <div class="mobile">
 
-<h2 class="section-heading">Services</h2>
+
     <section>
+    
+    <img class="center services" src="<?php echo get_template_directory_uri(); ?>/img/f35.jpeg" alt = "Card Image" >
+        <h2 class="section-heading">Services</h2>
         <p>
         <?php
         if (have_posts()) :

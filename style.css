@@ -501,6 +501,17 @@ footer #affiliations-footer ul {
     width: 50%;
   }
 
+  .center.services, .center.products {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .center.services {
+    padding-top: 20%;
+  }
+
   footer {
     flex-direction: column;
     text-align: center;
