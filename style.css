@@ -342,12 +342,12 @@ nav ul {
   justify-content: center;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.2) url("img/kane-splash.jpg");
+  background-size:contain;
   background-attachment: fixed;
   background-position: center;
   background-blend-mode: overlay;
   color: white;
   background-repeat:no-repeat;
-  background-size:contain;
 }
 
 #kane-splash{
