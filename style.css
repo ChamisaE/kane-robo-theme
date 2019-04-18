@@ -366,7 +366,7 @@ nav ul {
 
 #divider {
   height: 72px;
-  background: linear-gradient(.75turn, var(--kane-red), 95%, black);
+  background: linear-gradient(.75turn, #D3D3D3, 95%, black);
   width: 100%;
 }
 
@@ -385,7 +385,7 @@ content:"";
 position:absolute;
 top:90.5%;
 right:0;
-border:50px solid var(--kane-red);
+border:50px solid #D3D3D3;
 border-bottom:50px solid transparent;
 border-right:400px solid transparent;
 -webkit-transform: rotate(180deg);
