@@ -430,7 +430,7 @@ text-align: left;
 
 /* Styling for Products + Services Sections Front-Page */
 .services-section {
-  background-color: var(--kane-red);
+  background-color: #D3D3D3;
   color: white;
 }
 .services-card {
