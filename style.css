@@ -584,7 +584,7 @@ footer #affiliations-footer ul {
   margin: 20% 0 10% 0;
   position: relative;
   height: 500px;
-  background: var(--kane-red);
+  background: #D3D3D3;
 }
 .rr.rr-left {
   z-index: 1;
@@ -599,7 +599,7 @@ footer #affiliations-footer ul {
   background-image: url('./img/f35.jpeg');
   background-repeat:no-repeat;
   background-size:100% 100%;
-  background-color: var(--kane-red);
+  background-color: #D3D3D3;
   overflow: hidden;
 }
 
@@ -610,7 +610,7 @@ footer #affiliations-footer ul {
   background-image: url('./img/spacex.jpg');
   background-repeat:no-repeat;
   background-size:100% 100%;
-  background-color: var(--kane-red);
+  background-color: #D3D3D3;
   overflow: hidden;
 }
 
