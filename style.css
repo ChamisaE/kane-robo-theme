@@ -443,8 +443,8 @@ svg#bigTriangleColor {
 }
 
 #bigTriangleColor path {
-	fill: var(--kane-red);
-	stroke: var(--kane-red);
+	fill: var(#D3D3D3);
+	stroke: var(#D3D3D3);
 	stroke-width: 2;
 }
 
