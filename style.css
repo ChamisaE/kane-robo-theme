@@ -134,7 +134,7 @@ nav::after {
   position:absolute;
   top:100%;
   left:0;
-  border:50px solid var(--kane-red);
+  border:50px solid #D3D3D3;
   border-bottom:50px solid transparent;
   border-right:400px solid transparent;
 }
