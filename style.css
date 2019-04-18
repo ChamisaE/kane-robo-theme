@@ -493,7 +493,7 @@ justify-content: space-between;
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to right bottom,var(--kane-red) 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to right bottom,#D3D3D3 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
 /*-------------------------*/
 /* SKEW COUNTER CLOCKWISE  */
@@ -503,7 +503,7 @@ justify-content: space-between;
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to left bottom, #fff 49%, var(--kane-red) 50%);
+  background: linear-gradient(to left bottom, #fff 49%, #D3D3D3 50%);
 }
 
 /* end of main page */
