@@ -587,7 +587,7 @@ footer #affiliations-footer ul {
   margin: 20% 0 10% 0;
   position: relative;
   height: 500px;
-  background: #D3D3D3;
+  background: var(--kane-red);
 }
 .rr.rr-left {
   z-index: 1;
