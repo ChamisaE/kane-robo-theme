@@ -95,9 +95,6 @@ section {
   padding: 0 8px;
 }
 
-#SVG-Layer {
-display: none;
-}
 
 /* Button Read more */
 
@@ -506,10 +503,14 @@ justify-content: space-between;
   left:0px;
   background: linear-gradient(to left bottom, white 49%, darkgrey 49%);
 }
+/*this removes that triangle at bottom*/
+#SVG-Layer {
+  display: none;
+}
 
 /* end of main page */
 .end {
-  height: 10px;
+  height: 0px;
 
 }
 
