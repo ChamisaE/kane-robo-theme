@@ -366,7 +366,7 @@ nav ul {
 
 #divider {
   height: 72px;
-  background: linear-gradient(.75turn, #D3D3D3 20%, black);
+  background: linear-gradient(.75turn, #D3D3D3 35%, black);
   width: 100%;
 }
 
@@ -494,7 +494,7 @@ justify-content: space-between;
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to right bottom, black 10%, #fff 20%),   linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to right bottom, black 10%, #fff 15%),   linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
 /*-------------------------*/
 /* SKEW COUNTER CLOCKWISE  */
