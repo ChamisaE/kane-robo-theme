@@ -432,11 +432,12 @@ text-align: left;
 .services-card {
   width: 50%;
 }
-  /* Big Triangle
+  /* Big Triangle*/
 svg#bigTriangleColor {
   margin: 70px 0 70px 0;
 	pointer-events: none;
-}*/
+  background: black;
+}
 
 #bigTriangleColor path {
 	fill: #D3D3D3;
