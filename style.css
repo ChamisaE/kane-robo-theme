@@ -295,7 +295,7 @@ nav ul {
 
 #slideout-menu {
   display: none;
-  background: linear-gradient(.25turn, black 10%, white 90%);
+  background: linear-gradient(.25turn, black 10%, white 93%);
   z-index: 100;
   position: fixed;
   transition: 0.4s;
