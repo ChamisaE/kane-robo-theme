@@ -468,6 +468,7 @@ h2#products, h2#services {
   justify-items: center;
   margin-bottom: 10%;
   margin-top: 5%;
+  color: white;
   background-color: var(--kane-red);
 }
 
