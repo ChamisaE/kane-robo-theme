@@ -494,7 +494,7 @@ justify-content: space-between;
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to right bottom, black 10%, #fff 50%)    /*linear-gradient(-50deg, #ffffff 16px, #000 0);*/
+  background: linear-gradient(to right bottom, black 10%, #fff 70%)    /*linear-gradient(-50deg, #ffffff 16px, #000 0);*/
 }
 /*-------------------------*/
 /* SKEW COUNTER CLOCKWISE  */
