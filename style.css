@@ -360,11 +360,11 @@ nav ul {
 
 /* Divider that is below the splash */
 
-/*#divider {
+#divider {
   height: 72px;
   background: linear-gradient(.75turn, #D3D3D3 35%, black);
   width: 100%;
-}*/
+}
 
 #divider::before {
 content:"";
