@@ -96,7 +96,7 @@ section {
 }
 
 #SVG-Layer {
-  background: black;
+display: none;
 }
 
 /* Button Read more */
