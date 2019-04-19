@@ -341,7 +341,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.2) url("img/kane-splash.jpg");
+  background: rgba(0, 0, 0, 0.2) url("/wp-content/themes/gtctheme/img/kane-splash.jpg");
   background-attachment: fixed;
   background-position: center;
   background-blend-mode: overlay;
@@ -596,7 +596,7 @@ footer #affiliations-footer ul {
   z-index: 2;
   float: right;
   width: 56%;
-  background-image: url('./img/f35.jpeg');
+  background-image: url("/wp-content/themes/gtctheme/img/f35.jpeg");
   background-repeat:no-repeat;
   background-size:100% 100%;
   background-color: var(--kane-red);
@@ -607,7 +607,7 @@ footer #affiliations-footer ul {
   z-index: 2;
   float: right;
   width: 56%;
-  background-image: url('./img/spacex.jpg');
+  background-image: url("/wp-content/themes/gtctheme/img/spacex.jpg");
   background-repeat:no-repeat;
   background-size:100% 100%;
   background-color: var(--kane-red);
