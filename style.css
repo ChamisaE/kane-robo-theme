@@ -95,6 +95,9 @@ section {
   padding: 0 8px;
 }
 
+#SVG-Layer {
+  display: none;
+}
 
 /* Button Read more */
 
@@ -432,7 +435,7 @@ text-align: left;
 .services-card {
   width: 50%;
 }
-  /* Big Triangle
+  /* Big Triangle*/
 svg#bigTriangleColor {
   margin: 70px 0 70px 0;
 	pointer-events: none;
@@ -443,7 +446,7 @@ svg#bigTriangleColor {
 	fill: #D3D3D3;
 	stroke: #D3D3D3;
 	stroke-width: 2;
-}*/
+}
 
  #services {
   font-size: 32px;
