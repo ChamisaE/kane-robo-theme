@@ -2,14 +2,14 @@
 <main>
 <h2 class="section-heading" id="contact-us">Contact Us </h2>
 	<div class="contact-container">
-		<div class="contact">
+	<!--	<div class="contact">
 
 			<p> <i class="fas fa-phone-square"></i>(562) 432-3276 </p>
 			<p> <i class="fas fa-address-card"></i> 101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
 			<p><i class="fas fa-envelope-square"></i>info@kaneaero.com</p>
 
 		</div>
-	</div>
+	</div>-->
 
 	<!--California-->
 	<div id="california">
