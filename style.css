@@ -158,12 +158,8 @@ nav a {
   padding: 0 32px;
   color: #eee;
   transition: 0.4s;
-/*  text-decoration: overline var(--kane-red);*/
 }
 
-/*nav a:hover {
-  text-decoration: overline var(--kane-red);
-}*/
 
 nav ul {
   display: flex;
@@ -299,7 +295,7 @@ nav ul {
 
 #slideout-menu {
   display: none;
-  background: linear-gradient(.25turn, var(--kane-red), 10%, black);
+  background: linear-gradient(.25turn, var(--kane-red), 10%, white);
   z-index: 100;
   position: fixed;
   transition: 0.4s;
@@ -517,7 +513,6 @@ justify-content: space-between;
 /* Footer */
 
 footer {
- /* background: linear-gradient(.25turn, black, 20%, white);*/
   background: white;
   padding: 8px;
   color: black;
