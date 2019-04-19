@@ -366,7 +366,7 @@ nav ul {
 
 #divider {
   height: 72px;
-  background: linear-gradient(.75turn, #D3D3D3, 90%, black);
+  background: linear-gradient(.75turn, #D3D3D3 80%, black);
   width: 100%;
 }
 
