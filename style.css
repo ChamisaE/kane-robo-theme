@@ -158,11 +158,12 @@ nav a {
   padding: 0 32px;
   color: #eee;
   transition: 0.4s;
-}
-
-nav a:hover {
   text-decoration: overline var(--kane-red);
 }
+
+/*nav a:hover {
+  text-decoration: overline var(--kane-red);
+}*/
 
 nav ul {
   display: flex;
