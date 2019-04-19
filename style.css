@@ -158,7 +158,7 @@ nav a {
   padding: 0 32px;
   color: #eee;
   transition: 0.4s;
-  text-decoration: overline var(--kane-red);
+/*  text-decoration: overline var(--kane-red);*/
 }
 
 /*nav a:hover {
