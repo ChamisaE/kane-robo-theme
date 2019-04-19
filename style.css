@@ -549,7 +549,7 @@ footer #right-footer {
 }
 
 footer #right-footer > p:hover {
-color: gold;
+color: var(--kane-red);
 }
 
 footer #affiliations-footer ul {
