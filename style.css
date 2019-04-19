@@ -504,7 +504,7 @@ justify-content: space-between;
   height:100px;
   position:absolute;
   left:0px;
-  background: linear-gradient(to left bottom, var(--kane-red) 49%, gray 50%);
+  background: linear-gradient(to left bottom, var(--kane-red) 49%, darkgrey 50%);
 }
 
 /* end of main page */
