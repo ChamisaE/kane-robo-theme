@@ -517,7 +517,7 @@ justify-content: space-between;
 /* Footer */
 
 footer {
-  background: linear-gradient(.25turn, black, 80%, white);
+  background: linear-gradient(.25turn, black, 40%, white);
   padding: 8px;
   color: #eee;
   display: flex;
