@@ -512,6 +512,10 @@ justify-content: space-between;
   display: none;
 }
 
+#bigTriangleColor2 {
+  display: none;
+}
+
 /* end of main page */
 .end {
   height: 0;
