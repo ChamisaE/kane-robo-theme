@@ -460,6 +460,9 @@ h2#products, h2#services {
   margin-top: 150px;
 }
 
+h2#contact-us{
+  margin-left: 20px;
+}
 #services-btn {
   align-items: center;
   justify-items: center;
