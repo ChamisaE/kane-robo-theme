@@ -6,7 +6,7 @@ Version: 2.0
  */
 
  :root {
-  /* Declare Website Color Palletes Here */
+  /* Declare Website Color Palettes Here */
   /* --kane-red becomes a variable that can be reference with var(--kane-red) */
 
   --kane-red:  #8b1e26;
@@ -228,7 +228,7 @@ nav ul {
 }
 
 #logo-img:hover {
-  background:  rgb(42, 7, 11)
+  /*background:  rgb(42, 7, 11)*/
  
 }
 
