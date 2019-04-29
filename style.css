@@ -228,7 +228,7 @@ nav ul {
 }
 
 #logo-img:hover {
-  /*background:  rgb(42, 7, 11)*/
+  background:  rgb(42, 7, 11)
  
 }
 
@@ -341,7 +341,7 @@ nav ul {
   background-size:contain;
   background-attachment: fixed;
   background-position: center;
-  background-blend-mode: overlay;
+  /*background-blend-mode: overlay;*/
   color: white;
   background-repeat:no-repeat;
 }
