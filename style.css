@@ -341,6 +341,7 @@ nav ul {
   background-size:contain;
   background-attachment: fixed;
   background-position: center;
+  background-color: white;
   /*background-blend-mode: overlay;*/
   color: white;
   background-repeat:no-repeat;
