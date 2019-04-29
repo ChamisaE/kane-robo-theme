@@ -44,7 +44,7 @@ textarea {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   border: none;
-  box-shadow: inset 8px 3px 18px -4px rgba(0, 0, 0, 0);
+  box-shadow: inset 8px 3px 18px -4px rgba(0, 0, 0, 0.4);
 }
 
 input:focus,
