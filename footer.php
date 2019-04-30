@@ -21,20 +21,23 @@
                         <li>
                             <a href="<?php echo site_url('');?>">Home</a>
                         </li>
+								<li>
+									<a href="<?php echo site_url('/about');?>">About</a>
+								</li>
+								<li>
+									<a href="<?php echo site_url('/products');?>">Products</a>
+								</li>
+								<li>
+									<a href="<?php echo site_url('/services');?>">Services</a>
+								</li>
+								<li>
+									<a href="<?php echo site_url('/management');?>">Management</a>
+								</li>
+								<li>
+									<a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
+								</li>
                         <li>
                             <a href="<?php echo site_url('/events');?>">Events</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/products');?>">Products</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/services');?>">Services</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('/management');?>">Management</a>
                         </li>
                         <li>
                             <a href="<?php echo site_url('/contact');?>">Contact</a>
