@@ -805,11 +805,11 @@ footer #affiliations-footer ul {
 
   footer #right-footer {
     background: white;
-    color: white
+    color: black;
   }
 
   footer #right-footer a {
-    color: white;
+    color: black;
   }
 
   #divider::after, nav::after {
