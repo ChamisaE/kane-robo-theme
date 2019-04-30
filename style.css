@@ -337,7 +337,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.2) url("img/KRsmall.png");
+  background: rgba(0, 0, 0, 0.2) url("img/KRSmall.png");
   background-size:contain;
   background-attachment: fixed;
   background-position: center;
@@ -347,7 +347,7 @@ nav ul {
   background-repeat:no-repeat;
 }
 
-#kane-splash{
+#KRSmall {
    size: auto;
 }
 
