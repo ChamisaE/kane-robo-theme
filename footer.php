@@ -63,7 +63,7 @@
 						</a>
 					</div>
 
-                <h3>Contact:</h3>
+                <h3></br>Contact:</h3>
                 <p>(562) 432-3276 </p>
 					<p>info@kaneaero.com</p>
 					<p><strong>HQ:</strong> 101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
