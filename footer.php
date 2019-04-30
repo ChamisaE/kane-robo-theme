@@ -48,26 +48,27 @@
 
            
             <div id="right-footer">
-                
+
+					<h3> Affiliations </h3>
+					<div id="affiliations-footer">
+
+						<a href="https://www.robotics.org/">
+							<img id="rialogo" src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="50" width="50">
+						</a>
+						<a href="http://arminstitute.org/">
+							<img id="armlogo" src="<?php echo get_template_directory_uri();?>/img/armMemberBlack.png" height="50" width="50">
+						</a>
+						<a href="https://www.universal-robots.com/">
+							<img id="uarlogo" src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="50" width="50">
+						</a>
+					</div>
+
                 <h3>Contact:</h3>
                 <p>(562) 432-3276 </p>
 					<p>info@kaneaero.com</p>
 					<p><strong>HQ:</strong> 101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
 					<p><strong>FO:</strong> 7000 Merrill Ave, Chino, CA 91710</p>
 
-                <h3> Affiliations </h3>
-                <div id="affiliations-footer">
-                    
-                    <a href="https://www.robotics.org/">
-                        <img id="rialogo" src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="50" width="50">
-                    </a>	
-				    <a href="http://arminstitute.org/">
-				        <img id="armlogo" src="<?php echo get_template_directory_uri();?>/img/armMemberBlack.png" height="50" width="50">
-                    </a> 
-                    <a href="https://www.universal-robots.com/">
-                    <img id="uarlogo" src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="50" width="50">
-					</a>
-				</div>
 </footer>
 <?php wp_footer(); ?>
     </body>
