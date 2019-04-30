@@ -47,16 +47,16 @@
             <i class="fas fa-bars"></i>
         </div>
         <ul>
+			  <li>
+				  <a href="<?php echo site_url('/about');?>">About</a>
+			  </li>
             <li>
                 <a href="<?php echo site_url('/products');?>">Products</a>
             </li>
             <li>
                 <a href="<?php echo site_url('/services');?>">Services</a>
             </li>
-            <li>
-                <a href="<?php echo site_url('/events');?>">Events</a>
-            </li>
-            <li>
+			 	 <li>
 				  <div class="dropdown">
 					  <button class="dropbtn">Team
 						  <i class="fas fa-angle-down"></i>
@@ -66,10 +66,10 @@
 						  <a href="<?php echo site_url('/management');?>">Management</a>
 					  </div>
 				  </div>
-			</li>
+			 	 </li>
             <li>
-				  <a href="<?php echo site_url('/about');?>">About</a>
-			</li>
+                <a href="<?php echo site_url('/events');?>">Events</a>
+            </li>
 			<li>
                 <a href="<?php echo site_url('/contact');?>">Contact</a>
             </li>
