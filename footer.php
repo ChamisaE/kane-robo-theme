@@ -52,13 +52,13 @@
 					<h3> Affiliations </h3>
 					<div id="affiliations-footer">
 
-						<a href="https://www.robotics.org/">
+						<a href="https://www.robotics.org/" target="_blank">
 							<img id="rialogo" src="<?php echo get_template_directory_uri();?>/img/riaMember.jpeg" height="50" width="50">
 						</a>
-						<a href="http://arminstitute.org/">
+						<a href="http://arminstitute.org/" target="_blank">
 							<img id="armlogo" src="<?php echo get_template_directory_uri();?>/img/armMemberBlack.png" height="50" width="50">
 						</a>
-						<a href="https://www.universal-robots.com/">
+						<a href="https://www.universal-robots.com/"target="_blank">
 							<img id="uarlogo" src="<?php echo get_template_directory_uri();?>/img/urobot.jpg" height="50" width="50">
 						</a>
 					</div>
