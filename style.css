@@ -582,6 +582,9 @@ footer #affiliations-footer ul {
 
 /* Slanted Image Divider Layout for Services and Products Page + Mobile View */
 
+p {
+  line-height: 1.2px;
+}
 
 .rr > div {
   text-align: center;
@@ -602,6 +605,7 @@ footer #affiliations-footer ul {
   float: left;
   width: 44%;
   color: white;
+  margin-bottom: 5px;
 }
 .rr.rr-right{
   z-index: 2;
@@ -612,6 +616,7 @@ footer #affiliations-footer ul {
   background-size:100% 100%;
   background-color: #D3D3D3;
   overflow: hidden;
+  margin-bottom: 5px;
 }
 
 .rr.rr-right.services{
