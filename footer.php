@@ -66,7 +66,7 @@
                 <h3></br>Contact</h3>
                 <p>(562) 432-3276 </p>
 					<p>info@kaneaero.com</p>
-					<p><strong>Headquarters:</strong> 101 Broadway Blvd NE Suite 3100 Albuquerque NM 87102 </p>
+					<p><strong>Headquarters:</strong> 101 Broadway Blvd NE Suite 3100 Albuquerque, NM 87102 </p>
 					<p><strong>Field Office:</strong> 7000 Merrill Ave, Chino, CA 91710</p>
 
 </footer>
