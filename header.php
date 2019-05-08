@@ -62,8 +62,8 @@
 						  <i class="fas fa-angle-down"></i>
 					  </button>
 					  <div class="dropdown-content">
+						  <a href="<?php echo site_url('/management');?>">Managment</a>
 						  <a href="<?php echo site_url('/advisory-board');?>">Advisory Board</a>
-						  <a href="<?php echo site_url('/management');?>">Management</a>
 					  </div>
 				  </div>
 			 	 </li>
