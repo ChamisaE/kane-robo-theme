@@ -22,10 +22,10 @@
 
         ?>
             <div class="card">
-                <div class="management">
+                <div class="card-image">
                     <a href="<?php echo the_permalink(); ?>">
                     <img class ="center" src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" 
-                    alt = "Management">
+                    alt = "Card Image">
 
                     </a>
                 </div>
