@@ -31,8 +31,8 @@ a {
   color: black;
 }
 
-a:hover {
-  text-decoration: underline;
+logo-fade {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Inputs */
