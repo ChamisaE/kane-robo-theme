@@ -22,10 +22,10 @@
 
         ?>
             <div class="card">
-                <div class="card-image">
+                <div class="expo-event">
                     <a href="<?php echo the_permalink(); ?>">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" 
-                    alt = "Card Image">
+                    alt = "Expo Event">
 
                     </a>
                 </div>
