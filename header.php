@@ -40,8 +40,7 @@
     <nav>
         <div id="logo-img">
             <a href="<?php echo site_url('/');?>">
-               <!--<span id="logo-fade"> Kane Robotics </span>-->
-					<img src="KRSmall.png" alt="corner-logo" width="40px" height="20px">
+               <span id="logo-fade"> Kane Robotics </span>
             </a>
         </div>
         <div id="menu-icon">
