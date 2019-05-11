@@ -686,6 +686,17 @@ footer #affiliations-footer ul {
 
 /* Media Queries */
 
+/*For browswer/screen widths less than 768px*/
+.container {
+  max-width: 100%;
+}
+.content {
+  width: 100%;
+}
+.sidebar {
+  width: 100%;
+}
+
 .mobile {
   display: none;
 }
