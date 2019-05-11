@@ -20,7 +20,7 @@ get_header(); ?>
 
 <div class="mobile">
 <img class="center services" src="<?php echo get_template_directory_uri(); ?>/img/spacex.jpg" alt = "Card Image" >
-<h2 class="section-heading">Products</h2>
+<h2 class="section-heading" id="products">Products</h2>
         <p>
         <?php
         if (have_posts()) :
