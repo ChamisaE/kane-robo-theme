@@ -582,6 +582,10 @@ footer #affiliations-footer ul {
 
 /* Slanted Image Divider Layout for Services and Products Page + Mobile View */
 
+#products {
+  line-height: 1.2;
+}
+
 .rr > div {
   text-align: center;
 }
