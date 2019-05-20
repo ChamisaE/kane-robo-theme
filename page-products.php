@@ -16,6 +16,7 @@ get_header(); ?>
     </div>
 </div>
 <div class="rr rr-right">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Dznn21nT3SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="mobile">
