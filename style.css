@@ -615,7 +615,7 @@ footer #affiliations-footer ul {
   background-image: url('./img/https://m.youtube.com/watch?v=Dznn21nT3SQ');
   background-repeat:no-repeat;
   background-size:100% 100%;
-  background-color: #D3D3D3;
+  background-color: transparent;
   overflow: hidden;
   margin-bottom: 5px;
 }
