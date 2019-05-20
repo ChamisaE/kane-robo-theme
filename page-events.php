@@ -8,6 +8,7 @@
         </a>
 
     <div class="event-section">
+		 <h3>Kane Robotics will be exhibiting at the following trade shows:</h3>
         <?php 
         $args = array(
             'post_type' => 'event',
