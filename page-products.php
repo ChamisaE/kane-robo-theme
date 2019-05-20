@@ -14,15 +14,6 @@ get_header(); ?>
 		 <h3 align="left">Portable</h3>
 		 <h3 align="left">Real-time process communications</h3>
 		 <h3 align="left">Remote monitoring and operation</h3>
-        <p>
-        <?php
-        if (have_posts()) :
-        while (have_posts()) :
-            the_post();
-                the_content();
-        endwhile;
-        endif;?>
-        </p>
     </div>
 </div>
 <div class="rr rr-right">
