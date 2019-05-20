@@ -11,9 +11,9 @@ get_header(); ?>
 			 <li>Grinding and random orbital sanding option</li>
 			 <li>Conversion of CAD files for pattern-specific bond prep</li>
 		 </ul>
-		 <h3>Portable</h3>
-		 <h3>Real-time process communications</h3>
-		 <h3>Remote monitoring and operation</h3>
+		 <h3 align="left">Portable</h3>
+		 <h3 align="left">Real-time process communications</h3>
+		 <h3 align="left">Remote monitoring and operation</h3>
         <p>
         <?php
         if (have_posts()) :
