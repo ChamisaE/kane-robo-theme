@@ -5,7 +5,7 @@ get_header(); ?>
     <div>
         <h2 class="section-heading">Products</h2>
 		 <h3><strong>Cobot-based sanding, grinding and finishing system</strong></h3><br/>
-		 <h3>Precision bond-prep of composite aerostructures</h3>
+		 <h3 align="left">Precision bond-prep of composite aerostructures</h3>
 		 <ul>
 			 <li>Curved surfaces</li>
 			 <li>Grinding and random orbital sanding option</li>
