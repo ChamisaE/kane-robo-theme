@@ -862,3 +862,7 @@ footer #affiliations-footer ul {
     width: 300px;
   }
 }
+#event-text-heading {
+  padding: 5px;
+  margin: 5px;
+}
