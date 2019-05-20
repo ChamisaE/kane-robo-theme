@@ -4,7 +4,7 @@ get_header(); ?>
 <div class="rr rr-left">
     <div>
         <h2 class="section-heading">Products</h2>
-		 <h2><strong>Cobot-based sanding, grinding and finishing system</strong></h2>
+		 <h2 align="left">Cobot-based sanding, grinding and finishing system</h2>
 		 <h3 align="left">Precision bond-prep of composite aerostructures</h3>
 		 <ul>
 			 <li>Curved surfaces</li>
