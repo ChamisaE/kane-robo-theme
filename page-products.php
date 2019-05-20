@@ -22,15 +22,16 @@ get_header(); ?>
 
 <div class="mobile">
 	<h2 class="section-heading" id="products">Products</h2>
-        <p>
-        <?php
-        if (have_posts()) :
-        while (have_posts()) :
-            the_post();
-                the_content();
-        endwhile;
-        endif;?>
-        </p>
+	<h2 align="left">Cobot-based sanding, grinding and finishing system</h2>
+	<h3 align="left">Precision bond-prep of composite aerostructures</h3>
+	<ul>
+		<li>Curved surfaces</li>
+		<li>Grinding and random orbital sanding option</li>
+		<li>Conversion of CAD files for pattern-specific bond prep</li>
+	</ul>
+	<h3 align="left">Portable</h3>
+	<h3 align="left">Real-time process communications</h3>
+	<h3 align="left">Remote monitoring and operation</h3>
 	<iframe width="570" height="315" src="https://www.youtube.com/embed/Dznn21nT3SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
