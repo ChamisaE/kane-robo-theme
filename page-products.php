@@ -4,6 +4,16 @@ get_header(); ?>
 <div class="rr rr-left">
     <div>
         <h2 class="section-heading">Products</h2>
+		 <h3><strong>Cobot-based sanding, grinding and finishing system</strong></h3><br/>
+		 <h3>Precision bond-prep of composite aerostructures</h3>
+		 <ul>
+			 <li>Curved surfaces</li>
+			 <li>Grinding and random orbital sanding option</li>
+			 <li>Conversion of CAD files for pattern-specific bond prep</li>
+		 </ul>
+		 <h3>Portable</h3>
+		 <h3>Real-time process communications</h3>
+		 <h3>Remote monitoring and operation</h3>
         <p>
         <?php
         if (have_posts()) :
