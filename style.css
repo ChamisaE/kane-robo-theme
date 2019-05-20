@@ -644,7 +644,7 @@ footer #affiliations-footer ul {
   height: 120%;
   width: 100px;
   background: var(--kane-red);
-  transform: rotate(10deg);
+  transform: rotate(0deg);
   left: -68px;
   top: -20px;
   }
