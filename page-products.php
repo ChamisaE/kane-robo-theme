@@ -21,8 +21,7 @@ get_header(); ?>
 </div>
 
 <div class="mobile">
-<img class="center services" src="<?php echo get_template_directory_uri(); ?>/img/spacex.jpg" alt = "Card Image" >
-<h2 class="section-heading" id="products">Products</h2>
+	<h2 class="section-heading" id="products">Products</h2>
         <p>
         <?php
         if (have_posts()) :
@@ -32,8 +31,7 @@ get_header(); ?>
         endwhile;
         endif;?>
         </p>
-
-
+	<iframe width="570" height="315" src="https://www.youtube.com/embed/Dznn21nT3SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <?php get_footer();  ?>
