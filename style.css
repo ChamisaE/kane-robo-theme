@@ -338,7 +338,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.2) url("img/kaneroboticsimage-web.gif");
+  background: rgba(0, 0, 0, 0.2) url("img/kaneroboticsimage-small.jpg");
   background-size:contain;
   background-attachment: fixed;
   background-position: center;
