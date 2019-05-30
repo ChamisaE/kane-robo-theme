@@ -12,8 +12,8 @@ get_header(); ?>
 			 <li>Conversion of CAD files for pattern-specific bond prep</li>
 		 </ul>
 		 <h3 align="left">Portable</h3>
-		 <h3 align="left">Real-time process communications</h3>
-		 <h3 align="left">Remote monitoring and operation</h3>
+		 <h4 align="left">Real-time process communications</h4>
+		 <h4 align="left">Remote monitoring and operation</h4>
     </div>
 </div>
 <div class="rr rr-right">
