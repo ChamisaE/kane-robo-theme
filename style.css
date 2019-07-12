@@ -354,7 +354,7 @@ nav ul {
 	flex-direction: column;
 	background: url("img/kaneroboticsimage-small.jpg");
 	background-size: contain;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-position: center;
 	background-color: white;
 	/*background-blend-mode: overlay;*/
